@@ -1271,7 +1271,6 @@ footer a {
   #hero-pageA,
   #hero-pageB {
     width: 100%;
-    overflow:hidden;
   }
   main {
     padding: 0;
@@ -1318,7 +1317,7 @@ footer a {
     height: 300px;
   }
   #hero-pageB img {
-    width: 100%;
+    width: 400px;
   }
   .btn-container {
     position: absolute;
