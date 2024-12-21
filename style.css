@@ -1319,7 +1319,7 @@ footer a {
     height: 300px;
   }
   #hero-pageB img {
-    width: 410px;
+    width: 100%;
   }
   .btn-container {
     position: absolute;
