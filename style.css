@@ -1289,7 +1289,7 @@ footer a {
     flex-direction: column;
   }
   #logo {
-    width: 90px;
+    width: 110px;
   }
   #hero-pageA {
     margin: 30px 0;
@@ -1317,7 +1317,7 @@ footer a {
     height: 300px;
   }
   #hero-pageB img {
-    width: 400px;
+    width: 420px;
   }
   .btn-container {
     position: absolute;
