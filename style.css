@@ -1315,6 +1315,7 @@ footer a {
     position: absolute;
     top: 270px;
     height: 300px;
+border:5px solid red;
   }
   #hero-pageB img {
     width: 450px;
@@ -1437,10 +1438,11 @@ footer a {
   }
   .portfoilo > div {
     width: 100%;
+        min-height: 280px;
     margin-bottom: 13px;
   }
   .animation-profile p {
-    margin-top: 540px;
+    margin-top: 590px;
     font-size: 20px;
   }
   .con-soft:hover {
