@@ -4,7 +4,6 @@
   box-sizing: border-box;
   font-family: "raleway";
   font-weight: 500;
-  overflow-x:hidden;
 }
 @font-face {
   font-family: eina01-bold;
@@ -1272,7 +1271,6 @@ footer a {
   #hero-pageA,
   #hero-pageB {
     width: 100%;
-      overflow-x:hidden;
   }
   main {
     padding: 0;
@@ -1319,7 +1317,7 @@ footer a {
     height: 300px;
   }
   #hero-pageB img {
-    width: 100%;
+    width: 390px;
   }
   .btn-container {
     position: absolute;
