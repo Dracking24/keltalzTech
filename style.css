@@ -1275,7 +1275,6 @@ footer a {
   main {
     padding: 0;
     padding: 10px;
-    overflow:hidden;
   }
   nav,
   nav ul {
@@ -1304,20 +1303,20 @@ footer a {
   #hero-pageA h1,
   #section2-text-part h1 {
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
   }
   #hero-pageA-footer {
     position: relative;
     margin-top: 340px;
   }
-
   #hero-pageB {
+    width: 95%;
     position: absolute;
     top: 270px;
     height: 300px;
   }
   #hero-pageB img {
-    width: 380px;
+    width: 100%;
   }
   .btn-container {
     position: absolute;
@@ -1362,6 +1361,7 @@ footer a {
   #keltalz-services-text,
   .keltalz-classes h1 {
     margin: 0;
+    margin-bottom: 10px;
   }
   #keltalz-classes-text {
     margin-right: 10px;
@@ -1525,3 +1525,244 @@ footer a {
     font-size: 25px;
   }
 }
+
+@media (max-width: 500px) and (min-width: 480px) {
+  #logo {
+    width: 170px;
+  }
+  #hero-pageA h1 {
+    font-size: 35px;
+  }
+  #hero-pageA p {
+    font-size: 19px;
+  }
+  #hero-pageB img {
+    width: 515px;
+  }
+  #hero-pageB {
+    position: absolute;
+    top: 320px;
+    height: 400px;
+    padding: 0 30px;
+  }
+  #hero-pageA-footer-pic {
+    margin-top: 450px;
+  }
+  .rounded-pictures {
+    width: 60px;
+    height: 60px;
+  }
+  .btn-container {
+    margin-top: 10px;
+  }
+  #section2 {
+    margin-top: 130px;
+  }
+  #section2-text-part h1,
+  .sec3-heading h2 {
+    font-size: 30px;
+    margin-bottom: 8px;
+  }
+  .sec3-heading h2 {
+    margin-bottom: 30px;
+  }
+  #section2-text-part p,
+  #keltalz-services-text p,
+  .keltalz-classes p,
+  .sec3-heading .sec3-p1,
+  #flex-container-text .sec3-p1,
+  .animation-profile {
+    font-size: 20px;
+  }
+  .keltalz-classes h1 {
+    margin-bottom: 50px;
+  }
+  #keltalz-services-text p {
+    margin-top: 50px;
+  }
+  .flex-item,
+  .portfoilo .first-port {
+    width: 400px;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  .flex-item p {
+    font-size: 18px;
+  }
+  .animation-profile {
+    margin-top: 650px;
+  }
+  .testimonial p {
+    font-size: 19px;
+  }
+  .testimonial .author-base {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 375px) and (min-width: 321px) {
+  body {
+    overflow-x: hidden;
+  }
+  #logo {
+    width: 150px;
+  }
+  #hero-pageA h1 {
+    font-size: 27px;
+  }
+  #hero-pageA p {
+    font-size: 18px;
+  }
+  #hero-pageB {
+    position: absolute;
+    top: 300px;
+    height: 300px;
+  }
+  #hero-pageB img {
+    width: 430px;
+  }
+  #section2-text-part h1 {
+    font-size: 27px;
+    margin-bottom: 8px;
+  }
+  #section2-text-part p {
+    font-size: 18px;
+  }
+  #section5 h1,
+  #section4b h1 {
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+  .testimonial p {
+    font-size: 15.5px;
+  }
+}
+
+@media (max-width: 320px) {
+  #logo {
+    width: 120px;
+  }
+  #hero-pageA h1 {
+    font-size: 23px;
+  }
+  #hero-pageA p {
+    font-size: 17px;
+  }
+  #hero-pageB {
+    width: 300px;
+    margin: auto;
+  }
+  #hero-pageB img {
+    width: 390px;
+  }
+  #hero-pageB {
+    position: absolute;
+    top: 280px;
+    height: 300px;
+  }
+  #section5 h1,
+  #section4b h1 {
+    font-size: 1.8em;
+    margin-bottom: 30px;
+  }
+  .testimonial p {
+    font-size: 14px;
+  }
+  #keltalz-services-text p,
+  .keltalz-classes p {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 430px) and (min-width: 376px) {
+  #logo {
+    width: 170px;
+  }
+  #hero-pageA h1 {
+    font-size: 30px;
+  }
+  #hero-pageB {
+    width: 390px;
+    margin: auto;
+  }
+  #hero-pageB img {
+    width: 475px;
+  }
+  #hero-pageB {
+    width: 100%;
+    position: absolute;
+    top: 310px;
+    height: 300px;
+  }
+  #section2-text-part h1,
+  .sec3-heading h2 {
+    font-size: 28px;
+    margin-bottom: 5px;
+  }
+  #section2-text-part p,
+  .sec3-p1,
+  .keltalz-services-text,
+  #keltalz-services-text p,
+  .keltalz-classes p,
+  #hero-pageA p {
+    font-size: 1.1875em;
+  }
+
+  .sec3-heading h2 {
+    margin-bottom: 25px;
+  }
+  .flex-item {
+    width: 370px;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  .testimonial p {
+    font-size: 1.125em;
+  }
+  .author-base {
+    font-size: 0.9375em;
+  }
+}
+
+@media (max-width: 480px) and (min-width: 450px) {
+  #logo {
+    width: 150px;
+  }
+  #hero-pageA h1 {
+    font-size: 35px;
+  }
+  #hero-pageA p {
+    font-size: 19px;
+  }
+
+  #hero-pageB img {
+    width: 509px;
+  }
+  #hero-pageB {
+    width: 100%;
+    position: absolute;
+    top: 320px;
+    height: 400px;
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 390px) and (min-width:376px){
+  #hero-pageB img {
+    width: 419px;
+  }
+  #hero-pageB {
+    width: 100%;
+    position: absolute;
+    top: 320px;
+    height: 400px;
+    padding: 0 30px;
+  }
+  #hero-pageA-footer-pic{
+    margin-top: 440px;
+  }
+  #section2{
+    margin-top: 105px;
+  }
+}
+
