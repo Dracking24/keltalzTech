@@ -1271,10 +1271,12 @@ footer a {
   #hero-pageA,
   #hero-pageB {
     width: 100%;
+    overflow:hidden;
   }
   main {
     padding: 0;
     padding: 10px;
+      overflow:hidden;
   }
   nav,
   nav ul {
