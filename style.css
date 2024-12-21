@@ -1270,7 +1270,7 @@ footer a {
   body,
   #hero-pageA,
   #hero-pageB {
-    width: 325px;
+    width: 100%;
   }
   main {
     padding: 0;
