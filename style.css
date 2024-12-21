@@ -1266,7 +1266,7 @@ footer a {
 
 /* MEDIA QUERIES*/
 
-@media (max-width: 282px) {
+@media (max-width: 500px) {
   body,
   #hero-pageA,
   #hero-pageB {
