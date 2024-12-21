@@ -1266,7 +1266,7 @@ footer a {
 
 /* MEDIA QUERIES*/
 
-@media (max-width: 325px) {
+@media (max-width: 282px) {
   body,
   #hero-pageA,
   #hero-pageB {
@@ -1288,7 +1288,7 @@ footer a {
     flex-direction: column;
   }
   #logo {
-    width: 90px;
+    width: 110px;
   }
   #hero-pageA {
     margin: 30px 0;
