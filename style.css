@@ -1266,11 +1266,11 @@ footer a {
 
 /* MEDIA QUERIES*/
 
-@media (max-width: 282px) {
+@media (max-width: 325px) {
   body,
   #hero-pageA,
   #hero-pageB {
-    width: 110%;
+    width: 325px;
   }
   main {
     padding: 0;
